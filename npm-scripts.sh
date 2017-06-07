@@ -11,10 +11,10 @@ mkdir ~/.npm-global
 npm config set prefix '~/.npm-global'
 
 #bash shell
-echo '\nexport PATH=~/.npm-global/bin:$PATH' >> ~/.profile
+echo 'export PATH=~/.npm-global/bin:$PATH' >> ~/.profile
 source ~/.profile
 
 #zshell
-echo '\nexport PATH=~/.npm-global/bin:$PATH' >> ~/.zshrc
+echo 'export PATH=~/.npm-global/bin:$PATH' >> ~/.zshrc
 source ~/.zshrc
 # -----------------------
